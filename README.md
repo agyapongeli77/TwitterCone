@@ -18,7 +18,7 @@ The following **required** functionality is completed:
 ## Video Walkthrough
 
 
-<img src="https://github.com/agyapongeli77/TwitterCone/raw/master/SimpleTweetPart1gif.gif" width=250><br>
+<img src="https://github.com/agyapongeli77/TwitterCone/blob/master/SimpleTweetPart1Requiredgif.gif" width=250><br>
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
