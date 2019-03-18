@@ -33,11 +33,15 @@ public class ComposeActivity extends AppCompatActivity {
         textInputCompose = findViewById(R.id.text_input_compose);
         btnTweet = findViewById(R.id.btnTweet);
 
+        // set hint programmatically
+        textInputCompose.setHint("What's happening?");
+        textInputCompose.setHintEnabled(false);
+
         // set click listener on button
         btnTweet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               final String tweetContent = textInputCompose.getEditText().getText().toString();
+                final String tweetContent = textInputCompose.getEditText().getText().toString();
 
                 // error handling
                 if (tweetContent.isEmpty()){
@@ -48,7 +52,7 @@ public class ComposeActivity extends AppCompatActivity {
                     Toast.makeText(ComposeActivity.this, "Tweet is too long", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                Toast.makeText(ComposeActivity.this, tweetContent, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(ComposeActivity.this, tweetContent, Toast.LENGTH_SHORT).show();
 
                 // make API call to Twitter to publish the content in edit text
                 client.composeTweet(tweetContent, new JsonHttpResponseHandler(){
