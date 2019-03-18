@@ -1,6 +1,38 @@
-# Project 2 - *TwitterClone*
+# Project 2 - *SimpleTweet App*
 
-**SimpleTweet** is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
+**SimpleTweet App** is an android app that allows a user to view his Twitter timeline and post a new tweet. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
+
+## User Stories
+
+The following **required** functionality is completed:
+
+- [x] User can **compose and post a new tweet**
+  - [x] User can click a “Compose” icon in the Action Bar on the top right
+  - [x] User can then enter a new tweet and post this to twitter
+  - [x] User is taken back to home timeline with **new tweet visible** in timeline
+  - [x] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
+  - [x] User can **see a counter with total number of characters left for tweet** on compose tweet page
+
+The following **optional** features are implemented:
+- [x] User can **pull down to refresh tweets timeline**
+
+
+## Video Walkthrough
+
+<img src='http://i.imgur.com/Yd6Khmn.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+
+## Open-source libraries used
+
+- [Android Async HTTP](https://github.com/loopj/android-async-http) - Simple asynchronous HTTP requests with JSON parsing
+- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
+
+
+# Project 2 - *SimpleTweet App*
+
+**SimpleTweet App** is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
 Time spent: **4** hours spent in total
 
@@ -17,9 +49,7 @@ The following **required** functionality is completed:
 
 ## Video Walkthrough
 
-
 <img src="https://github.com/agyapongeli77/TwitterCone/blob/master/SimpleTweetPart1Requiredgif.gif" width=250><br>
-
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -34,7 +64,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2019] [Elija Agyapong]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
