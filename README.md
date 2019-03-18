@@ -13,13 +13,9 @@ The following **required** functionality is completed:
   - [x] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
   - [x] User can **see a counter with total number of characters left for tweet** on compose tweet page
 
-The following **optional** features are implemented:
-- [x] User can **pull down to refresh tweets timeline**
-
-
 ## Video Walkthrough
 
-<img src='http://i.imgur.com/Yd6Khmn.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/NJBxEjj.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
