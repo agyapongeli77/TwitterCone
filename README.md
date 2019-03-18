@@ -12,6 +12,11 @@ The following **required** functionality is completed:
   - [x] User is taken back to home timeline with **new tweet visible** in timeline
   - [x] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
   - [x] User can **see a counter with total number of characters left for tweet** on compose tweet page
+  
+  The following **bonus** features are implemented:
+
+- [x] Use Parcelable instead of Serializable using the popular [Parceler library](http://guides.codepath.org/android/Using-Parceler).
+
 
 ## Video Walkthrough
 
